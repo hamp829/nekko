@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noinex, nofollow">
+    <meta name="description" content="JavaScriptの課題作品です。">
+    <title>ねっこ育てます。</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg">
+            <header>
+            </header>
+            <main>
+
+                <div class="container">
+                    <div class="main"> <!-- メイン画面 -->
+                        <div class="title"><img src="images/title.png" alt="タイトル画像" id="title"></div>
+                        <div id="window"><img src="images/nekkoanime/nekko.gif" id="nekko"></div>
+
+                    </div> <!-- /.main -->
+
+
+                    <div class="lottery"> <!-- ごはんガチャ -->
+                        <div id="basket">
+                            <div class="foodtype" id="potatoBasket">
+                                <img src="images/btn2.png" alt="じゃがいもあげるボタン">
+                                <img src="images/food1.png" alt="じゃがいも">
+                                <span id="potato">00</span><small>コ</small>
+                            </div>
+                            <div class="foodtype" id="carrotBasket">
+                                <img src="images/btn2.png" alt="にんじんあげるボタン">
+                                <img src="images/food2.png" alt="にんじん">
+                                <span id="carrot">00</span><small>コ</small>
+                            </div>
+                            <div class="foodtype" id="sweetpotatoBasket">
+                                <img src="images/btn2.png" alt="さつまいもあげるボタン">
+                                <img src="images/food3.png" alt="さつまいも">
+                                <span id="sweetpotato">00</span><small>コ</small>
+                            </div>
+                            <div class="foodtype" id="turnipBasket">
+                                <img src="images/btn2.png" alt="かぶあげるボタン">
+                                <img src="images/food4.png" alt="黄金のかぶ">
+                                <span id="turnip">00</span><small>コ</small>
+                            </div>
+                        </div> <!--/.basket-->
+
+                        <div class="food_result">
+                            <div id="lot_btn" class="btn">
+                                <img src="images/btn.png" alt="ガチャを引くボタン">
+                            </div> <!--/.lot_btn-->
+                            <div id="lot_food"></div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </main>
+            <footer>
+            </footer>
+
+
+        </div>
+    </div>
+    <div id="text" class="text">
+        ごはんをあげて、ねっこを育てよう。
+    </div>
+
+    <div id="aboutbtn" class="aboutbtn">
+        <img src="images/aboutbtn.png" alt="このアプリについて">
+    </div>
+
+    <div id="aboutimg" class="about">
+        <img src="images/about.jpg" alt="このアプリについて">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"
+        integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="js/script01.js"></script>
+
+</body>
+
+</html>
